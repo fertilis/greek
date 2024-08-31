@@ -2,4 +2,4 @@
 title: Greek Vocabulary
 ...
 
-[1-100](./0100.html)
+[1-10](./0010.html)
