@@ -1,0 +1,19 @@
+## 1.
+
+Ο Θωμάς είναι το μόνο άτομο που μπορεί να σε βοηθήσει **τώρα**.
+
+Tom is the only one who can help you **now**.
+
+## 2
+
+Επειδή σήμερα έχω ρεπό **ας πάμε** στην παραλία.
+
+As I am off duty today, **let's go** to the beach.
+
+## 3
+
+**Let's stay in** and just *watch* a video.
+
+**Ας μείνουμε μέσα** να *δούμε* απλά ένα βίντεο.
+
+απλά simply
