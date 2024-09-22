@@ -15,6 +15,7 @@ def main():
     except FileNotFoundError:
         pass
     os.makedirs(html_dir, exist_ok=True)
+    shutil.copy(f"{project_dir}/style.css", f"{html_dir}/style_copy.css")
     md_paths = recursively_list_directory(md_dir)
     html_paths = [
         replace_path_prefix(path, md_dir, html_dir).with_suffix(".html")
