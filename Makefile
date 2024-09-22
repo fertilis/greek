@@ -1,7 +1,10 @@
 SHELL := /bin/bash
 
 all:
-	@bash build.sh && git add -A && git commit -m wip && git push origin master
+	@python3 build.py && git add -A && git commit -m wip && git push origin master
 	
 build:
-	@bash build.sh
+	@python3 build.py
+
+deploy:
+	@git add -A && git commit -m wip && git push origin master
