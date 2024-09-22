@@ -25,6 +25,10 @@ def main():
     for md_path, html_path in zip(md_paths, html_paths):
         os.makedirs(html_path.parent, exist_ok=True)
         print(f"{md_path} -> {html_path}")
+        if html_path.name == "index.html":
+            style_path = "./style_copy.css"
+        else:
+            style_path = "../style_copy.css"
         args = [
             "pandoc",
             "-s",
@@ -33,7 +37,7 @@ def main():
             "-t",
             "html5",
             "--css",
-            "./style_copy.css",
+            style_path,
             "-o",
             html_path,
             md_path,
